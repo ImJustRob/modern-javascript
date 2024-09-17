@@ -15,7 +15,7 @@
   \******************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("/* global moment */\n\nvar moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\"); \n\nconsole.log(moment().format('MMMM Do YYYY, h:mm:ss a'));\n\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
+eval("/* global moment */\n\nvar moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\nconsole.log(moment().format('MMMM Do YYYY, h:mm:ss a'));\nvar bob = {\n  _name: \"Bob\",\n  _friends: [],\n  printFriends: function printFriends() {\n    var _this = this;\n    this._friends.forEach(function (f) {\n      return console.log(_this._name + \" knows \" + f);\n    });\n  }\n};\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
 
 /***/ }),
 
